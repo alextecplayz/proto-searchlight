@@ -1,0 +1,85 @@
+/* Searchlight - Colors */
+/* (C) alextecplayz 2023 */
+:root {
+    --black: #000000;
+    --darkgray: #3a3a3a;
+    --white: #ffffff;
+    --lightgray: #c5c5c5;
+    --readerbg: #D4D4D4;
+    --readerbg-dark: #1a1a1a;
+    --transparent: #00000000;
+
+    --warning: #f8ff9c;
+
+    --codeblock-green: #b9ca4a;
+    --codeblock-red: #ca4a4a;
+    --codeblock-yellow: #caa84a;
+    --codeblock-purple: #bb4aca;
+    --codeblock-blue: #4acabf;
+    --codeblock-gray: #a8a8a8;
+
+    --accent-color: #ff62ff;
+    --red: #ff9c9c;
+
+    --headerbg: #282a36;
+    --headerbg-dark: #1c1d25;
+    --headerbg-dark-transparent: #1c1d2580;
+}
+
+::selection {
+    color: var(--black);
+    background-color: var(--accent-color);
+}
+
+::-moz-selection {
+    color: var(--black);
+    background-color: var(--accent-color);
+}
+
+.background-color {
+    background-color: #282a36;
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+.white {
+    color: var(--white);
+}
+
+.lightgray {
+    color: var(--lightgray);
+}
+
+.reader {
+    background-color: var(--readerbg);
+}
+
+.reader-dark {
+    background-color: var(--readerbg-dark);
+}
+
+.darkgray {
+    color: var(--darkgray);
+}
+
+.black {
+    color: var(--black);
+}
+
+.bg-header {
+    background-color: #282a36;
+}
+
+.bg-transparent {
+    background-color: var(--transparent);
+}
+
+.warning {
+    color: var(--warning);
+}
+
+.red {
+    color: var(--red);
+}

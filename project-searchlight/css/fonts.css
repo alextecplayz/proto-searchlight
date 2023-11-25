@@ -1,0 +1,126 @@
+/* Searchlight fonts.css */
+/* (C) alextecplayz 2023 */
+
+/* Google Fonts import url with the fonts that are required */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); /* IBM Plex Mono */
+
+/* Font styles and weights */
+
+.monospace {
+    font-family: 'IBM Plex Mono';
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.wavy {
+    text-decoration: wavy;
+}
+
+.dashed {
+    text-decoration: dashed;
+}
+
+.dotted {
+    text-decoration: dotted;
+}
+
+.translate {
+    text-decoration: dotted;
+    cursor: help;
+    color: var(--darkgray);
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.rem0-5 {
+    font-size: 0.5rem;
+}
+
+.rem0-75 {
+    font-size: 0.75rem;
+}
+
+.rem1 {
+    font-size: 1rem;
+}
+
+.rem1-15 {
+    font-size: 1.15rem;
+}
+
+.rem1-5 {
+    font-size: 1.5rem;
+}
+
+.rem2 {
+    font-size: 2rem;
+}
+
+.rem2-5 {
+    font-size: 2.5rem;
+}
+
+.rem3 {
+    font-size: 3rem;
+}
+
+.rem3-5 {
+    font-size: 3.5rem;
+}
+
+.rem4 {
+    font-size: 4rem;
+}
+
+.rem4-5 {
+    font-size: 4.5rem;
+}
+
+.rem5 {
+    font-size: 5rem;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+}

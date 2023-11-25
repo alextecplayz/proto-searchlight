@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- Searchlight -->
+<html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+    <!-- Webpage title -->
+    <title id="home">Searchlight</title>
+    <!-- Website description -->
+    <meta name="description" content="Project Searchlight, 2023 AlexTECPlayz">
+    <!-- Viewport width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/colors.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/searchlight.css"/>
+    <!-- Favicons start -->
+
+    <!-- Favicons end -->
+    <!-- Header scripts -->
+</head>
+<body class="background-color">
+    <!-- Header begin -->
+    <header class="header header-padding bg-header">
+        <div class="header-left">
+            <div class="header-branding">
+                <a class="header-brandname monospace white semibold" href="index.html">Searchlight</a>
+            </div>
+          </div>
+        </div>
+            <div class="header-right">
+                <div class="header-buttons">
+                    <button type="button" class="header-button monospace lightgray semibold" id="about-button">About</button>
+                    <button type="button" class="header-button monospace lightgray semibold" id="settings-button">Settings</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <div>
+
+        <div class="search-container">
+            <div class="searchbox-container">
+                <input class="searchbox monospace italic search-input" type="text" id="search-input" placeholder="Enter your search term..."><button class="button button-dark monospace semibold button-search" id="search-button">Search</button>   
+            </div> 
+            <div class="helpers">
+                <button type="button" class="button-headerbg monospace italic lightgray searchbox-helpers" id="tutorial-button">Need a tutorial?</button>
+            </div>
+            <div class="search-results" id="search-results">
+                <div class="query-tiles">
+
+                </div>
+                <div class="query-results">
+
+                </div>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="pop-up about-pop-up" id="about-popup">
+        <div class="pop-up-content">
+            <button class="button button-dark button-modal monospace semibold" id="about-close">Close</button>  
+            <p class="centered monospace semibold rem2 warning pop-up-title">About</p>
+            <p class="monospace lightgray italic medium rem1-15">Version 1.0 Searchlight (Build 14022023)</p>
+            <p class="monospace lightgray italic medium rem1-15" id="hosting-type">Hosted </p>
+            <p class="monospace lightgray italic medium rem1-15">(C) 2023 AlexTECPlayz. All other copyrights go to their respective owners.</p>
+        </div>
+    </div>
+
+    <div class="pop-up settings-pop-up" id="settings-popup">
+        <div class="pop-up-content">
+            <button class="button button-dark button-modal monospace semibold" id="settings-close">Close</button>   
+            <p class="centered monospace semibold rem2 warning pop-up-title">Settings</p>
+            <p class="monospace lightgray italic medium rem1-15">Current theme</p>
+            <div class="settings-themes-section">
+                <div class="theme-section-light">
+                    <p class="monospace lightgray italic medium rem1-15">Light theme</p>
+                    <p class="monospace lightgray italic medium rem1-15">(IMAGE)</p>
+                    <p class="monospace lightgray italic medium rem1-15">(Grid of circles with colours)</p>
+                </div>
+                <div class="theme-section-dark">
+                    <p class="monospace lightgray italic medium rem1-15">Dark theme</p>
+                    <p class="monospace lightgray italic medium rem1-15">(IMAGE)</p>
+                    <p class="monospace lightgray italic medium rem1-15">(Grid of circles with colours)</p>
+                </div>
+            </div>
+            <p class="monospace lightgray italic medium rem1-15">Hide header</p>
+            <p class="monospace lightgray italic medium rem1-15">Lock screen mode</p>
+        </div>
+    </div>
+
+    <div class="pop-up tutorial-pop-up" id="tutorial-popup">
+        <div class="pop-up-content">
+            <button class="button button-dark button-modal monospace semibold" id="tutorial-close">Close</button>  
+            <p class="centered monospace semibold rem2 warning pop-up-title">Tutorial</p>
+            <p class="monospace lightgray italic medium rem1-15">Start typing in the searchbox, and Searchlight will expand to show queries related to what you're typing, in real time.</p>
+        </div>
+    </div>
+
+    <!-- Body scripts -->
+    <script src="js/searchlight.js"></script>
+</body>
+</html>
